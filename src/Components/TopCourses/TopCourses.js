@@ -3,6 +3,19 @@ import backgorund from "./../../Images/TopCourse/background_image.png";
 import bca from "./../../Images/TopCourse/BCA.jpg";
 import CourseCard from "./CourseCard";
 import "./../../Style/TopCourses.css";
+import B from "./../../Images/TopCourse/B.Arch.jpg"
+import Mca from"./../../Images/TopCourse/Mca.jpg";
+import BDS from "./../../Images/TopCourse/BDS.jpg";
+import MBBS from  "./../../Images/TopCourse/MBBS.jpg";
+import MD from  "./../../Images/TopCourse/MD.jpg";
+import BBA from  "./../../Images/TopCourse/BBA.jpg";
+import MBA from  "./../../Images/TopCourse/MBA.jpg";
+import Btech from  "./../../Images/TopCourse/B.Tech.jpg";
+import MTech from  "./../../Images/TopCourse/MTech.jpg";
+import BE from  "./../../Images/TopCourse/B.E..jpg";
+import ME from  "./../../Images/TopCourse/ME.jpg";
+
+
 const card1_data = [
   {
     heading: "Computer Courses",
@@ -13,7 +26,7 @@ const card1_data = [
       },
       {
         name: "MCA",
-        images: bca,
+        images: Mca,
       },
     ],
   },
@@ -22,15 +35,15 @@ const card1_data = [
     items: [
       {
         name: "BDS",
-        images: bca,
+        images: BDS,
       },
       {
         name: "MBBS",
-        images: bca,
+        images: MBBS,
       },
       {
         name: "MD/MS",
-        images: bca,
+        images: MD,
       },
     ],
   },
@@ -41,11 +54,11 @@ const card2_data = [
     items: [
       {
         name: "BBA",
-        images: bca,
+        images: BBA,
       },
       {
         name: "MBA",
-        images: bca,
+        images: MBA,
       },
     ],
   },
@@ -54,23 +67,23 @@ const card2_data = [
     items: [
       {
         name: "B.Tech",
-        images: bca,
+        images: Btech,
       },
       {
         name: "B.Arch",
-        images: bca,
+        images: B,
       },
       {
         name: "M.Tech",
-        images: bca,
+        images: MTech,
       },
       {
         name: "B.E",
-        images: bca,
+        images: BE,
       },
       {
         name: "M.E",
-        images: bca,
+        images: ME,
       },
     ],
   },

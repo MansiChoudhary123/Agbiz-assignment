@@ -1,21 +1,25 @@
 import React from "react";
 import "./../../Style/Highlight.css";
 import name from "./../../Images/Highlight/name.png";
+import capital from "./../../Images/Highlight/capital.png";
+import language from "./../../Images/Highlight/language.png";
+import population from "./../../Images/Highlight/population.png"
+import currency from "./../../Images/Highlight/currency.png";
+import religion from "./../../Images/Highlight/religion.png";
 import HighlightCard from "./HighlightCard";
 const data = [
   { heading: "Name", subheading: "Republic of India", image: name },
-  { heading: "Capital", subheading: "Delhi", image: name },
-  {
-    heading: "Language",
+  { heading: "Capital", subheading: "Delhi", image:  capital},
+    {heading: "Language",
     subheading: "Hindi, English and many regional language",
-    image: name,
+    image: language,
   },
-  { heading: "Religion", subheading: "Republic of India", image: name },
-  { heading: "Capital", subheading: "Delhi", image: name },
+  { heading: "Religion", subheading: "Hinduism, Islam, Cristianity, Others", image:religion},
+  { heading: "Population", subheading: "136.64 Crores (2019)", image: population },
   {
-    heading: "Language",
-    subheading: "Hindi, English and many regional language",
-    image: name,
+    heading: "Currency",
+    subheading: "Indian Rupee(INR)",
+    image: currency,
   },
 ];
 const MainComponent = () => {
