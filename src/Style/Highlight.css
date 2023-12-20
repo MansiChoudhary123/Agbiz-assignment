@@ -1,0 +1,39 @@
+.main-container-highlight {
+  height: 100vh;
+  background-color: rgb(50, 50, 50);
+  padding-top: 30px;
+}
+.highlight-card-heading {
+  margin: auto;
+  width: 80%;
+  padding: 20px;
+  box-shadow: 0 -10px 7px -7px grey inset;
+}
+.highlight-card-heading h1 {
+  font-size: 40px;
+  color: white;
+}
+.highlight-card-item {
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  height: 100px;
+}
+.highlight-card-item-text {
+  text-align: start;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.highlight-card-item-text p {
+  margin-bottom: 0;
+}
+.highlight-card-item-text .main-heading {
+  font-size: 25px;
+}
+.highlight-card-item-text .sub-heading {
+  font-size: 15px;
+}
+.highlight-card-item-image {
+  height: 100%;
+}
