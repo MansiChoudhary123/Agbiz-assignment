@@ -10,7 +10,7 @@ const data = [
     subheading: "Hindi, English and many regional language",
     image: name,
   },
-  { heading: "Name", subheading: "Republic of India", image: name },
+  { heading: "Religion", subheading: "Republic of India", image: name },
   { heading: "Capital", subheading: "Delhi", image: name },
   {
     heading: "Language",

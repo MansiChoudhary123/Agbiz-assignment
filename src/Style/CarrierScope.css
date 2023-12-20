@@ -1,0 +1,27 @@
+.carrer {
+  background-color: bisque;
+  height: 100vh;
+}
+.carrer-heading {
+  margin-left: 40%;
+
+  border-left: 5px solid rgb(255, 153, 0);
+}
+.carrer-description {
+  margin-left: 15%;
+}
+.cards {
+  display: flex;
+  flex-direction: row;
+  margin-left: 10px;
+  justify-content: center;
+}
+.card-body {
+  box-shadow: 12px 12px 2px 1px rgb(117, 73, 19);
+  background-color: white;
+  height: 60%;
+  margin-left: 30px;
+  text-align: center;
+  margin-top: 70px;
+  border-radius: 0.5rem;
+}
